@@ -1,0 +1,144 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    position: fixed;
+    height: 80px;
+    z-index: 999;
+    background-color: white;
+}
+
+main{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 140px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    border: 1px solid white;
+}
+
+.row{
+    padding-left: 0;
+    margin-right: 0;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: black;
+}
+
+.img-fluid{
+    width: 50px;
+}
+
+.left-menu{
+    position: fixed;
+    margin-top: 60px;
+    height: 100vh;
+    width: 140px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+}
+
+.left-menu .bg-left:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}   
+
+.bot-menu{
+margin-bottom: 64px;
+}
+
+main .sb-row{
+    background-color:#1B72E8; 
+}
+
+main .sb-span:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.479);
+}   
+
+main .sb-span{
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 2px 10px;
+    background-color: #165BBA;
+}
+
+.sb-container-fluid {
+    padding-left: 14px;
+}
+
+main table{
+    font-size: 14px;
+    
+}
+
+
+main td{
+    width: 120px;
+}
+
+main td i{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    color: gray;
+}
+
+main td:first-child{
+    width: 100%;
+}
+
+main th img{
+    width: 40px;
+}
+
+.list-group a{
+    text-decoration: underline;
+    font-weight: 600;
+    color:#76ADFD;
+}
+.td-green{
+    padding: 2px 5px;
+    color: white;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.td-red{
+    padding: 2px 5px;
+    color: white;
+    border-radius: 10px;
+    background-color: red;
+}
+.td-yellow{
+    padding: 2px 5px;
+    color: white;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+td i{
+    cursor: pointer;
+}
+
+.input-text{
+    background-color: #D5DADF;
+}
+
+@media screen and (max-width:991px){
+    .left-menu{
+        width: 75px;
+    }
+
+    main{
+        margin-left: 75px;
+    }
+}
